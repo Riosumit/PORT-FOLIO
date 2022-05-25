@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: #bad9f5;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1.8vh 1.8vw;
+}
+.logo,.logo img{
+    padding: 1px;
+    margin-right: auto;
+    height: 40px;
+    width: 142px;
+}
+li, li a{
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-family: Jazz LET, fantasy;
+    padding: 4px;
+    color: #9714a3;
+    margin: 2px;
+}
+header li:hover{
+    font-size: 3.6vh;
+    background-color: rgba(6, 119, 172, 0.363);
+}
+.intro{
+    display: inline-block;
+    padding: 55px 41px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 600px;
+    max-width: 90vw;
+    transition-property: all;
+    transition-duration: 1s;
+    margin-right: auto;
+}
+.intro img{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+.intro a img{
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+}
+.photo, .photo img{
+    display: inline-block;
+    padding: 10px;
+    height: 350px;
+    width: 310px;
+    margin-right: auto;
+}
+.edu, .edu img{
+    width: 500px;
+    max-width: 95vw;
+    height: 500px;
+    display: inline-block;
+}
+.edu2{
+    display: inline-block;
+    width: 950px;
+    max-width: 95vw;
+}
+.cont{
+    padding: 25px;
+    width: 400px;
+    max-width: 95vw;
+    display: inline-block;
+}
+.ephoto, .ephoto img{
+    width: 500px;
+    height: 300px;
+    max-width: 90vw;
+    max-height: 70vw;
+    display: inline-block;
+}
