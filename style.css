@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    display: inline-block;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 10px;
+    background-color: blue;
+    border-radius: 22px;
+}
+.navlinks{
+    margin-left: 20px;
+}
+.navlinks a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.navlinks li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+}
+.nav_cont{
+    display: flex;
+    flex-direction: row;
+}
+.nav_cont input{
+    margin: 10px;
+}
+.nav_cont img{
+    margin: 10px;
+    height: 20px;
+}
+.content{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5vw;
+}
+.content img{
+    height: 250px;
+    width:250px;
+    border-radius: 139px;
+    max-width: 95vw;
+    max-height: 95vw;
+    border: 10px solid purple;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.about{
+    margin-left: 5vw;
+}
+#job{
+    border-right: 1px solid purple;
+    color: brown;
+    font-size: 30px;
+}
