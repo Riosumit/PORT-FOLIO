@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: linear-gradient(115.28deg, #1BA68D 0.72%, #BBFFF3 93.82%, #FCFFFF 122.3%);
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(254, 254, 254, 0.34);
+    /* filter: blur(2px); */
+}
+nav img{
+    width: 60px;
+    margin: 5px;
+    border-radius: 50%;
+}
+.links{
+    display: flex;
+}
+.links a{
+    text-decoration: none;
+    padding: 10px 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 36px;
+    color: #328382;
+}
+.elipse1{
+    width: 14vw;
+    height: 14vw;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    border-radius: 100vw;
+    background: radial-gradient(193.23% 193.23% at -30.08% -29.32%, rgba(244, 253, 251, 0) 4.38%, rgba(252, 255, 255, 0.38) 61.57%, rgba(23, 41, 38, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    opacity: 0.54;
+    border: 1px solid #FCF8F8;
+    filter: blur(2px);
+}
+.elipse2{
+    width: 9vw;
+    height: 9vw;
+    position: absolute;
+    top: 65%;
+    left: 35%;
+    border-radius: 100vw;
+    background: radial-gradient(193.23% 193.23% at -30.08% -29.32%, rgba(244, 253, 251, 0) 4.38%, rgba(252, 255, 255, 0.38) 61.57%, rgba(23, 41, 38, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    opacity: 0.54;
+    border: 1px solid #FCF8F8;
+    filter: blur(2px);
+}
+.elipse3{
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    border-radius: 100vw;
+    background: radial-gradient(193.23% 193.23% at -30.08% -29.32%, rgba(244, 253, 251, 0) 4.38%, rgba(252, 255, 255, 0.38) 61.57%, rgba(23, 41, 38, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    opacity: 0.54;
+    border: 1px solid #FCF8F8;
+    filter: blur(2px);
+}
+.main{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content h1{
+    font-family: 'Enriqueta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vw;
+    color: #056B46;
+    padding: 0vw 3vw;
+}
+.content p{
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    color: #384D60;
+    padding: 1vw 5vw;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.profile{
+    height: 95vh;
+}
+.follow{
+    display: flex;
+    align-items: center;
+    margin: 0px 5vw;
+}
+.follow img{
+    width: 50px;
+    padding-right: 15px;
+}
