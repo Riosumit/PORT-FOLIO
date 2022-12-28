@@ -18,7 +18,7 @@ nav{
 }
 nav img{
     width: 60px;
-    margin: 5px;
+    margin: 5px 20px;
     border-radius: 50%;
 }
 .links{
@@ -32,6 +32,10 @@ nav img{
     font-size: 23px;
     line-height: 36px;
     color: #328382;
+    transition: 0.2s all;
+}
+.links a:hover{
+    scale: 1.1;
 }
 .elipse1{
     width: 14vw;
